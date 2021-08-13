@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<style>
+.body{
+	
+	margin:0px;
+	padding:0px;
+	background-image:url(food-1932466.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	
+	
+	
+	}
+.navv{
+	width:0px;
+	height:100%;
+	left:0;
+	top:0;
+	position:fixed;
+	overflow-x:hidden;
+	transition:2s;
+z-index:1000;
+	background-color:rgba(0,0,0,0.7);
+	}
+	.navv a{
+		display:block;
+		text-decoration:none;
+		font-size:25px;
+			color:#EFEFEF;
+			padding:35px;
+		transition:2s;
+		
+		
+		
+		}
+</style>
+</head>
+
+<body><div class="navv" id="nav">
+<a href="">Home</a>
+<a href="">hj</a>
+<a href="">jhjhj</a>
+<button onClick="closeNav()"> &times;</button>
+
+</div>
+<button onClick="openNav()" style="color:black;">&#9776;Menu</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+function openNav(){
+	document.getElementById("nav").style.width = "280px";
+	document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
+	
+}
+function closeNav(){
+	document.getElementById("nav").style.width = "0px";
+	document.body.style.backgroundColor = "white";
+	
+}
+
+</script>
+</body>
+</html>

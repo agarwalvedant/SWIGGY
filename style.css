@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	margin:0px;
+	padding:0px;
+	background-image:url(food-1932466.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	
+	
+	
+	}
+.navv{
+	width:0px;
+	height:100%;
+	left:0;
+	top:0;
+	position:fixed;
+	overflow-x:hidden;
+	transition:2s;
+z-index:1000;
+	background-color:rgba(0,0,0,0.7);
+	}
+	.navv a{
+		display:block;
+		text-decoration:none;
+		font-size:25px;
+			color:#EFEFEF;
+			padding:35px;
+		transition:2s;
+		
+		
+		
+		}
+		.cl{
+			margin-left:200px;
+			font-size:50px !important;
+			
+			
+			
+			
+			}
+			.gh{
+			font-size:30px;
+			padding-left:10px;
+			color:white;
+		
+			}
+			
+			.ll{
+			background-color:rgba(1,1,1,0.48);
+				width:100%;
+			height:60px;
+			
+				}
+				.na{
+					margin-top:-30px;
+					margin-left:60%;
+					
+					}
+				
+				.na a{
+						display:inline;
+		text-decoration:none;
+		font-size:20px;
+			color:#EFEFEF;
+padding-left:20px
+	
+					
+					
+					}
+				
+
+		
+								
+				
+			.hjh{
+				margin-left:-80%;
+					
+				width:80%;
+				height:20px;
+				}	
+				.nk{
+					margin-left:50%;
+					margin-top:-3%
+					
+				}
+				.rampurl img{
+					width:45%;
+					height:550px;
+					margin-left:50%;
+					
+			
+					}	
+					.ga{
+						
+						opacity:0.9;
+						background-size:cover;
+						background-position:center;
+						
+						text-align:center;
+						color:white;
+						font-size:100px;
+						margin-top:-34%;
+						margin-left:-5%;
+	width:50%;
+	height:450px;
+
+						}
+						.fa{
+							opacity:1 !important;
+							font-size:40px !important ;
+							}
+					.p{
+						font-size:30px !important;
+						text-decoration:underline
+					}
+						
+					.but1:hover{
+						background-color:orange;
+					
+						
+						}	
+						
+						
+						
+						
+											
+			
+			
